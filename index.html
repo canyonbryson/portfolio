@@ -24,7 +24,7 @@
     width: 100%;
     height: 100%;
   }
-  .button {
+  .section {
   background-color: #4CAF50;
   border: none;
   border-radius: 4px;
@@ -32,12 +32,10 @@
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
   opacity: .95;
-   float: center;
   }
   h1, h3, button {
   text-align: center;
@@ -55,13 +53,21 @@
   </script>
   <body class="background">
   <div id="body" onload="fadeIn()" class="main">
+  <header>
+    <h1>Welcome.</h1>
+    <h3>Which Portfolio would you like to see?</h3>
+   </header>
   
-  <h1>Welcome.</h1>
-  <h3>Which Portfolio would you like to see?</h3>
-    <div>
-      <button class="button" href="canyonbryson.github.io">Biological Engineering</button>
-      <button class="button" href="canyonbryson.wordpress.com/canyon-bryson">Athletic (Wordpress)</button>
-      <button class="button" href="canyonbryson.github.io/rpi_chemostat">Computer Science</button>
+    <section href="canyonbryson.github.io" style="float:left; width: 30%;>
+      <p>Biological Engineering</p>
+    </section>
+    <section href="canyonbryson.github.io/rpi_chemostat" style="float:right; width: 30%;>
+      <p>Computer Science</p>
+    </section>                                                             
+    <footer href="canyonbryson.wordpress.com/canyon-bryson" style="float:right; width: 30%;>                                            
+      <p>Athletic (Wordpress)</p>
+    </footer>
+    
     </div>
   </div>
   
