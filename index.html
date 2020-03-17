@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Canyon Bryson</title>
+  </head>
+  <style>
+  html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+  .background {
+    background-image: url('https://i.ibb.co/BV8k1HV/1638152.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .main {
+    background-color: "black";
+    opacity: .50;
+  }
+  .button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  h1, h3, button {
+  text-align: center;
+  }
+  </style>
+  
+  <body class="background">
+  <div id="body" onLoad="fadeIn()" class="main">
+  
+  <h1>Welcome.</h1>
+  <h3>Which Portfolio would you like to see?</h3>
+  <button class="button" href="canyonbryson.github.io">Biological Engineering</button>
+  <button class="button" href="canyonbryson.wordpress.com/canyon-bryson">Athletic (Wordpress)</button>
+  <button class="button" href="canyonbryson.github.io/rpi_chemostat">Computer Science</button>
+  
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+  function fadeIn() {
+    $("#body").fadeIn();
+  }
+  </script>
+  </body>
+</html>
